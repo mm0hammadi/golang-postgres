@@ -1,0 +1,7 @@
+@ip = 127.0.0.1
+@port = 3000
+
+GET https://{{ip}}:{{port}}/posts HTTP/1.1
+content-type: application/json
+Authorization: ""
+
