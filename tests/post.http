@@ -5,3 +5,8 @@ GET https://{{ip}}:{{port}}/posts HTTP/1.1
 content-type: application/json
 Authorization: ""
 
+
+POST https://{{ip}}:{{port}}/posts HTTP/1.1
+content-type: application/jsonAuthorization: ""
+
+{name:"test",email:"mm34549@gmail.com"}
